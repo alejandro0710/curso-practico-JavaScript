@@ -1,0 +1,24 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+    /*background-image:url(https://www.wallpapertip.com/wmimgs/10-103187_math-wallpaper-hd.jpg);*/
+    background-position: center;
+    background-size:cover;
+}
+header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    
+}
