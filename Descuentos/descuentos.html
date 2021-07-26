@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Percentages and discounts | practice JavaScript course</title>
+  </head>
+  <body>
+    <header>
+      <h1>Percentages and discounts</h1>
+      <p>this is the second practical workshop of the javaScript course</p>
+    </header>
+    <main>
+      <section>
+        <h2>calculate discount of your product</h2>
+        <form>
+          <label for="priceUser">Write the price of your product :</label>
+          <input id="priceUser" type="number" required />
+          <label for="discountUser">write the discount to apply :</label>
+          <input id="discountUser" type="number" required />
+
+          <label for="inputCoupon">Coupon of discount :</label>
+          <input id="inputCoupon" type="text" />
+
+          <button type="button" onclick="valueWithDiscount()">
+            Calculate discount
+          </button>
+          
+          <p id="result"></p>
+          <p id="resultCoupon"></p>
+        </form>
+      </section>
+    </main>
+    <script src="./descuentos.js"></script>
+  </body>
+</html>
