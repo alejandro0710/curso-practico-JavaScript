@@ -2,6 +2,8 @@ const salaryColombia = colombia.map(function (person) {
   return person.salary;
 });
 
+console.log(salaryColombia);
+
 const orderSalaryCol = salaryColombia.sort(function (a, b) {
   return a - b;
 });
