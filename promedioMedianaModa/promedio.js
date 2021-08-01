@@ -17,5 +17,8 @@ function calculateArithmeticMean(list) {
   return averageList;
 
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 4b5a39fa48fe23e77ad6fd4cd8195eb093c2c523
