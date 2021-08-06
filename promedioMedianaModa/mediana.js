@@ -31,10 +31,12 @@ if (isEvenNumber(listOne)) {
   median = listOne[medianListOne];
 }
 
-//const listOne = [2000, 100, 500, 300, ];*/
+//const listOne = [2000, 100, 500, 300];*/
+
+var numero = [200, `200`];
 
 //my function
-const valueList = document.getElementById("valueList")
+const valueList = document.getElementById("valueList");
 const value = valueList.value;
 const list = value;
 
@@ -79,3 +81,60 @@ function calculateMedian(list) {
   return median;
 }
 
+var asd = [1, 2, 3, 4];
+
+var asdf = ["Alejandro", "Camilo", "Maria"];
+
+var detalle = { nombre: "Alejandro", apellido: "Ramos" };
+
+var arreglo = [
+  function numeroArea(asd) {
+    console.log(asd);
+  },
+  "Alejandro",
+  { nombre: "Alejandro", apellido: "Ramos" },
+];
+
+arreglo[2];
+
+//ejercios
+
+var valueUser = "300,400,900,700";
+
+const valueArrays = valueUser.split(",");
+
+console.log(valueArrays);
+
+const nuevo = [];
+
+const entero = (newInteger) => {
+  let b = +newInteger;
+  return b;
+};
+
+const cambie = (list) => {
+  for (let i = 0; i < list.length; i++) {
+    var x = list[i];
+    let result = entero(x);
+    console.log(result);
+    nuevo.push(result);
+  }
+};
+cambie(valueArrays);
+console.log(nuevo);
+
+//acortar ejercicio con .map
+var valueUser = "300,400,900,700";
+const valueArrays = valueUser.split(",");
+const mapear = valueArrays.map(function (x) {
+  return +x;
+});
+console.log(mapear);
+
+//acortar aun mas
+
+var valueUser = "300,400,900,700";
+const valueArrays = valueUser.split(",").map((x) => {
+  return +x;
+});
+console.log(valueArrays);
